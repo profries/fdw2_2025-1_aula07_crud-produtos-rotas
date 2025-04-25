@@ -3,7 +3,8 @@ import { Produto } from './produto';
 
 @Pipe({
   name: 'filtroPesquisa',
-  standalone: false
+  standalone: false,
+  pure: false
 })
 export class FiltroPesquisaPipe implements PipeTransform {
 

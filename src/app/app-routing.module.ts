@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: "tabela", component: TabelaProdutosComponent },
   { path: "novo", component: FormProdutosComponent },
   { path: "lista", component: ListCardProdutosComponent },
+  { path: "edit/:id", component: FormProdutosComponent },
   { path: "", redirectTo: "/tabela", pathMatch: 'full' },
   { path: "**", component: PageNotFoundComponent}
 ];

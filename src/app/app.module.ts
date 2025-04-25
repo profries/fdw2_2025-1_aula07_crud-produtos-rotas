@@ -11,6 +11,7 @@ import { CardProdutoComponent } from './card-produto/card-produto.component';
 import { ListCardProdutosComponent } from './list-card-produtos/list-card-produtos.component';
 import { MoedaPipe } from './moeda.pipe';
 import { FiltroPesquisaPipe } from './filtro-pesquisa.pipe';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FiltroPesquisaPipe } from './filtro-pesquisa.pipe';
     CardProdutoComponent,
     ListCardProdutosComponent,
     MoedaPipe,
-    FiltroPesquisaPipe
+    FiltroPesquisaPipe,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
